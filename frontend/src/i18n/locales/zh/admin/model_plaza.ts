@@ -1,0 +1,23 @@
+export default {
+  modelPlaza: {
+    title: '模型广场',
+    description: '配置用户端展示分组、模型与价格；该功能仅展示，不影响调度与计费。',
+    enableLabel: '启用模型广场',
+    enableHint: '关闭后用户端入口隐藏、页面不可访问。',
+    groupName: '分组名称',
+    groupNamePlaceholder: '例如：标准池',
+    groupDescription: '分组说明',
+    groupDescriptionPlaceholder: '可选，简要描述该分组',
+    currency: '货币符号',
+    note: '备注',
+    addGroup: '添加分组',
+    removeGroup: '删除分组',
+    addModel: '添加模型',
+    removeModel: '删除模型',
+    noModels: '暂无模型，点击下方按钮添加',
+    categoryEmpty: '「{name}」下暂无分组，点击下方按钮添加',
+    saved: '保存成功',
+    saveFailed: '保存失败',
+    loadFailed: '加载配置失败',
+  },
+}

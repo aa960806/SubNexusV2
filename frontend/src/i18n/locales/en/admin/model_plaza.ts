@@ -1,0 +1,23 @@
+export default {
+  modelPlaza: {
+    title: 'Model Plaza',
+    description: 'Configure display-only model groups and prices. This never changes routing or billing.',
+    enableLabel: 'Enable Model Plaza',
+    enableHint: 'When off, the user entry is hidden and the page is inaccessible.',
+    groupName: 'Group name',
+    groupNamePlaceholder: 'e.g. Standard pool',
+    groupDescription: 'Group description',
+    groupDescriptionPlaceholder: 'Optional short description',
+    currency: 'Currency',
+    note: 'Note',
+    addGroup: 'Add group',
+    removeGroup: 'Remove group',
+    addModel: 'Add model',
+    removeModel: 'Remove model',
+    noModels: 'No models yet — add one below',
+    categoryEmpty: 'No groups under "{name}" yet — add one below',
+    saved: 'Saved',
+    saveFailed: 'Save failed',
+    loadFailed: 'Failed to load config',
+  },
+}
